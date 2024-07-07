@@ -1,0 +1,139 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: ghostwhite;
+    border-bottom: 1px solid ghostwhite;
+}
+
+.bar-de-recherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: ghostwhite;
+    border-radius: 25px;
+}
+
+.destination,
+.voyageurs {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.mettre-mon-logement {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+
+.imgd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-small;
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.block-1, .block-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.imageex {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 0 20px;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.bar-de-recherche button img {
+    vertical-align: middle;
+}
+
+footer {
+    background-color: ghostwhite; /
+    padding: 20px 0;
+}
+
+.pied-de-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.footer-left, .footer-right {
+    display: flex;
+}
+
+.footer-left ul, .footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left li, .footer-right li {
+    margin-right: 35px; 
+}
+
+.footer-left a, .footer-right a {
+    text-decoration: none;
+    color: black; 
+}
+
